@@ -3,6 +3,7 @@ const { ApolloGateway } = require("@apollo/gateway");
 
 const port = 8080;
 
+
 const gateway = new ApolloGateway({
   serviceList: [
     { name: "astronauts", url: "http://localhost:4001" },
