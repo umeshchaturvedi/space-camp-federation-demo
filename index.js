@@ -1,7 +1,7 @@
 const { ApolloServer } = require("apollo-server");
 const { ApolloGateway } = require("@apollo/gateway");
 
-const port = 4000;
+const port = 8080;
 
 const gateway = new ApolloGateway({
   serviceList: [
